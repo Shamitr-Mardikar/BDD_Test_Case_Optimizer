@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 import joblib
 
 # Load the DataFrame
-file_path = 'datasets/testcase_dataset.csv'
+file_path = 'testcase_dataset.csv'
 df = pd.read_csv(file_path)
 
 # Vectorize the Text Data
